@@ -1,0 +1,25 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Sep  9 21:25:15 2020
+
+@author: deepak
+"""
+
+"""Odd Even vending machine """
+
+def odd_even_machine(a):
+        if a%2 == 0:
+            print("The number is even {0}".format(a))
+            
+        else:
+            print("The number is odd {}".format(a))
+            
+if __name__ == '__main__':
+    b = int(input("Enter the number : "))
+    odd_even_machine(b)
+    print("The next 10 numbers are : ")
+    for i in range(b,b+20,2):
+      
+        print('{0}'.format(i))
+        
